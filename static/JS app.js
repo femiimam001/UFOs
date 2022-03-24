@@ -134,4 +134,41 @@ function updateFilters() {
     buildTable(filteredData);
 }
 
-    
+ // 9. Loop through all of the filters and keep any data that
+    // matches the filter values
+    if (date) {
+      filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+    if (city) {
+        filteredData = filteredData.filter(row => row.city === city);
+    };
+
+// Build the table when the page loads
+buildTable(tableData);
+    if (state) {
+        filteredData = filteredData.filter(row => row.state === state);
+    };
+
+    if (country) {
+        filteredData = filteredData.filter(row => row.country === country);
+    };
+
+    if (shape) {
+        filteredData = filteredData.filter(row => row.shape === shape);
+    };
+
+
+    // 10. Finally, rebuild the table using the filtered data
+    buildTable(filteredData);
+
+  }
+
+  // 2. Attach an event to listen for changes to each filter
+  d3.selectAll("input").on("change", filterTable);
+
+  // Build the table when the page loads
+  buildTable(tableData);
+   
