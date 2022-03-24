@@ -30,3 +30,14 @@ Below is a filter results in a more narrowed view such as specifying the date, a
 Filter selection can be broad such as only selecting a country and state like the United States, California.There is no needed Submit or Refresh button as the tables update in real time.
 
 ![Ufo_table _info](https://github.com/femiimam001/UFOs/edit/main/Ufo_table_info.PNG)
+
+## Summary
+
+Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. The main draw backs all have to do with the fact that the search options don't provide much idea as to available options to search on. The current fields are all text boxes and these can allow for a lot of user errors or just simply misinterpretation. This makes the data analysis ineffective and time consuming.
+
+Drawback:
+The filter method is case sensitive. Therefore if a user entered any items in upper case, the search results would not return properly. For example, if the user entered a city as "Ventura" instead of "ventura", the city would not return in the filtered data.
+
+Recommendations:
+Calendar selection option instead of textbox field for the Date search.
+A drop down menu should be added for the shaor field.
