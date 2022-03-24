@@ -20,5 +20,8 @@ Deliverable 2: A written report on the UFO analysis (README.md)
 
 ## Results
 
-A webpage was created to improve the user -friendly display of Ufo sighting data with a filter table that allows users to easily filter on variuos criteria including but not limited to date, city, state, and shape. Below is a UFO Sightings web design unfiltered:
+A webpage was created to improve the user-friendly display of Ufo sighting data with a filter table that allows users to easily filter on variuos criteria including but not limited to date, city, state, and shape. Below is a UFO Sightings web design unfiltered:
 ![Ufo_web_app](https://github.com/femiimam001/UFOs/edit/main/Ufo_web_app.PNG)
+
+The Ufo Sighting web with filter customised function that displays different categories of end to end filtering.Below is a filtered view of UFO Sighting:
+![Ufo_fitered_lightshape](https://github.com/femiimam001/UFOs/edit/main/Ufo_fitered_lightshape.PNG)
