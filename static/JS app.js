@@ -71,7 +71,37 @@ var filters = {};
     });
 
 }
+// 3. Use this function to update the filters. 
+function updateFilters() {
 
+  // add a function to respond to a user clicking the HTML button, using D3 (data driven documents)
+  // this will help users be able to filter data 
+  // The .select() function is a very common one used in D3. It will select the very first element that matches our selector string: "#datetime"
+  // With d3.select("#datetime"), we're telling D3 to look for the #datetime id in the HTML tags
+  // By chaining .property("value"); to the d3.select function, we're telling D3 not only to look for where our date values are stored 
+  // on the webpage, but to actually grab that information and hold it in the "date" variable.
+  function handleClick() {
+      let date = d3.select("#datetime").property("value");
+      // 4a. Save the element that was changed as a variable.
+      let changedElement = d3.select(this); 
+  
+      // Now we need to set a default filter and save it to a new variable. 
+      // Our default filter will actually be the original table data because we want users to refine their search on their own terms. 
+      // Let's add the new variable on the next line.
+      let filteredData = tableData;
+      // 4b. Save the value that was changed as a variable.
+      let elementValue = changedElement.property("value");
+      console.log(elementValue);
+  
+      // The next step is to check for a date filter using an if statement.
+      //  "Show only the rows where the date is equal to the date filter we created above." 
+      // The triple equal signs test for equality, meaning that the date in the table has to match our filter exactly.
+      if (date) {
+          filteredData = filteredData.filter(row => row.datetime === date);
+      // 4c. Save the id of the filter that was changed as a variable.
+      let filterId = changedElement.attr("id");
+      console.log(filterId);
+  
 
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
