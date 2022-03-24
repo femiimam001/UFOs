@@ -24,7 +24,7 @@ A webpage was created to improve the user-friendly display of Ufo sighting data 
 
 ![Ufo_web_app](https://github.com/femiimam001/UFOs/edit/main/Ufo_web_app.PNG)
 
-Below is a filter results in a more narrowed view such as specifying the date, a city in one state and focusing on one type of shape such as light.!
+Below is a filter results in a more narrowed view such as specifying the date, a city in one state and focusing on one type of shape such as light.
 
 ![Ufo_fitered_lightshape](https://github.com/femiimam001/UFOs/edit/main/Ufo_fitered_lightshape.PNG)
 
