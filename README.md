@@ -16,13 +16,14 @@ We will use JavaScript to create tables that organizes UFO data that is stored a
 ## Project Deliverables
 
 Deliverable 1: Filter UFO sightings on multiple criteria
+
 Deliverable 2: A written report on the UFO analysis (README.md)
 
 ## Results
 
 A webpage was created to improve the user-friendly display of Ufo sighting data with a filter table that allows users to easily filter on variuos criteria including but not limited to date, city, state, and shape. Below is a UFO Sightings web design unfiltered:
 
-![Ufo_web_app](https://github.com/femiimam001/UFOs/edit/main/Ufo_web_app.PNG)
+![Ufo_web_app](https://github.com/femiimam001/UFOs/blob/main/Resouces/Ufo_web_app.PNG)
 
 Below is a filter results in a more narrowed view such as specifying the date, a city in one state and focusing on one type of shape such as light.
 
