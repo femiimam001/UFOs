@@ -15,7 +15,8 @@ var tbody = d3.select("tbody");
 //iterate through the array of objects in our data file and then append them to a table row.
 // With this function, we have done the following:
 // Looped through each object in the array
-// Appended a row to the HTML table
+// Appended a row to the HTML tableok
+
 // Added each value from the object into a cell
 function buildTable(data) {
     // first clear the data
