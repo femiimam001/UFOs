@@ -27,7 +27,7 @@ A webpage was created to improve the user-friendly display of Ufo sighting data 
 
 Below is a filter results in a more narrowed view such as specifying the date, a city in one state and focusing on one type of shape such as light.
 
-![Ufo_fitered_lightshape](https://github.com/femiimam001/UFOs/edit/main/Ufo_fitered_lightshape.PNG)
+![Ufo_fitered_lightshape](https://github.com/femiimam001/UFOs/blob/main/Resouces/Ufo_fitered_lightshape.PNG)
 
 Filter selection can be broad such as only selecting a country and state like the United States, California.There is no needed Submit or Refresh button as the tables update in real time.
 
