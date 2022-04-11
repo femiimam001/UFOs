@@ -31,7 +31,7 @@ Below is a filter results in a more narrowed view such as specifying the date, a
 
 Filter selection can be broad such as only selecting a country and state like the United States, California.There is no needed Submit or Refresh button as the tables update in real time.
 
-![Ufo_table _info](https://github.com/femiimam001/UFOs/edit/main/Ufo_table_info.PNG)
+![Ufo_table _info](https://github.com/femiimam001/UFOs/blob/main/Resouces/Ufo_table_info.PNG)
 
 ## Summary
 
